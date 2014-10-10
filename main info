@@ -1,0 +1,34 @@
+Title: "N/A"
+
+Main Character: "Insert Name"
+  Starting Attributes:
+    - Health:   10 points
+    - Stamina:  30 points
+          (will regen 2 points per second, if no item is in use)
+    - Magic:    10 Points
+  Abilities:
+    - Jump 
+          (2.5 blocks high)
+          (Will do kill enemies without head protection)
+    - Slide
+          (Must be moving)
+          (Will do damage (Based on speed) to enimies without shields) 
+          (Will destroy weak blocks at full momentum)
+    
+Buffs:
+    - Invincibility
+          (Lasts for 17 seconds)
+
+Gear:
+    - Heavy Armor   - 7 Gold
+          (Limits jump to 1.25 blocks high)
+          (Will protect player at all times)
+          (Can take 3 points of damage until destroyed)
+    - Wooden Sheild - 5 Gold
+          (Must equip to use)
+          (Will only protect player if shield button is in use)
+          (Will block attacks if damage dealt is less then 5)
+          (Each attack blocked drains 5 stamina)
+          (While using shiel stamaina regen is set to 1 point / 2 seconds)
+          (If damage dealt to shield is greater then 5, player will take 1 point of damage and shield will be destroyed)
+          
