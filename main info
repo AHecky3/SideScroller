@@ -3,9 +3,24 @@ Title: "N/A"
 Main Character: "Insert Name"
   Starting Attributes:
     - Health:   10 points
+          (Must get Health Pots to regain health)
     - Stamina:  30 points
           (will regen 2 points per second, if no item is in use)
     - Magic:    10 Points
+          (Must get Magic Pots to regain Magic)
+    - 5 Item Inventory
+          
+  Starting Items:
+    - Wooden Sword
+          (Deals 3 points of damage)
+    - 1 Small Health Pot
+    - 1 Small Magic Pot
+    
+  Starting Spells:
+    - Ice Bolt
+          (Deals 1 point of damage)
+          (Slows enimies by 50% for 5 seconds)
+  
   Abilities:
     - Jump 
           (2.5 blocks high)
@@ -15,20 +30,37 @@ Main Character: "Insert Name"
           (Will do damage (Based on speed) to enimies without shields) 
           (Will destroy weak blocks at full momentum)
     
-Buffs:
-    - Invincibility
-          (Lasts for 17 seconds)
+Drops:
+    - Health Pots
+          -Small
+              (Gives user 4 points of health back)
+          -Normal
+              (Gives user 8 points of health back)
+          -Large
+              (Gives user 12 points of health back)
+          -Huge
+              (Gives user 16 points of health back)
+    -Magic Pots
+          -Small
+              (Gives user 4 points of Magic back)
+          -Medium
+              (Gives user 8 points of magic back)
+          -Large
+              (Gives user 16 points of magic back)
 
 Gear:
-    - Heavy Armor   - 7 Gold
-          (Limits jump to 1.25 blocks high)
+    - Leahter Armor - 7 Gold
+          (Limits jump to 1.5 blocks high)
           (Will protect player at all times)
-          (Can take 3 points of damage until destroyed)
+          (Reduces damage taken by 1)
     - Wooden Sheild - 5 Gold
           (Must equip to use)
           (Will only protect player if shield button is in use)
           (Will block attacks if damage dealt is less then 5)
           (Each attack blocked drains 5 stamina)
-          (While using shiel stamaina regen is set to 1 point / 2 seconds)
+          (While using shield stamaina regen is set to 1 point / 2 seconds)
           (If damage dealt to shield is greater then 5, player will take 1 point of damage and shield will be destroyed)
+    - Iron Sword    - 10 gold
+          (Must equip to use)
+          (Deals 5 points of damage)
           
